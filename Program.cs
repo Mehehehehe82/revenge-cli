@@ -53,6 +53,7 @@ namespace revenge_cli
 		static void Main(string[] args)
         {
 			Console.Clear();
+			Console.WriteLine("Source code: http://bit.ly/revengecli");
 			Console.WriteLine("-- START -- ");
 			Lyrics();
 			Console.WriteLine("--  END  -- ");
