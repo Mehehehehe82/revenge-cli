@@ -1,2 +1,2 @@
 # revenge-cli
-A C# program that sings revenge
+A C# program that "sings" revenge
