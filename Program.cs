@@ -39,7 +39,6 @@ namespace revenge_cli
 			Console.Write("to ");
 			Thread.Sleep(700);
 			Console.WriteLine("side.");
-
 			
 			Thread.Sleep(700);
 			Console.Write("Side-");
@@ -58,6 +57,7 @@ namespace revenge_cli
 			Lyrics();
 			Console.WriteLine("--  END  -- ");
 			Thread.Sleep(5000);
+			return;
         }
     }
 }
