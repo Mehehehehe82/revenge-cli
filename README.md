@@ -16,6 +16,10 @@ A: I genuinely don't know. And I'm a little bit sorry.
 
 A: It's hard to get the beat accurate when the rate of the lyrics changes.
 
+## Are you ever going to finish this?
+
+A: If I can bring myself to, I will.
+
 # How to run revenge-cli (and other .NET apps) from source
 1. Open a terminal and clone the repository
 2. Navigate into the newly cloned repo
