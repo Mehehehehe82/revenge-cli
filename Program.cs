@@ -7,6 +7,15 @@ namespace revenge_cli
 {
     class Program
     {
+		static void CountDown(int startNumber){
+			int CountDownNumber = startNumber;
+			while (CountDownNumber > 0) {
+				Console.Write(CountDownNumber);
+				Console.Write("\u001b[1D");
+				CountDownNumber--;
+				Thread.Sleep(1000);
+			}
+		}
 		static void Lyrics(){
             Console.Write("Creeper... ");
 			Thread.Sleep(2000);
@@ -48,15 +57,49 @@ namespace revenge_cli
 			Console.Write("to ");
 			Thread.Sleep(400);
 			Console.WriteLine("Side.");
+
+			Thread.Sleep(1000);
+			Console.Write("This ");
+			Thread.Sleep(400);
+			Console.Write("task ");
+			Thread.Sleep(400);
+			Console.Write("a ");
+			Thread.Sleep(400);
+			Console.Write("gruel");
+			Thread.Sleep(400);
+			Console.Write("ing ");
+			Thread.Sleep(400);
+			Console.WriteLine("one");
+
+			Thread.Sleep(400);
+			Console.Write("Hope ");
+			Thread.Sleep(400);
+			Console.Write("to ");
+			Thread.Sleep(400);
+			Console.Write("find ");
+			Thread.Sleep(400);
+			Console.Write("some ");
+			Thread.Sleep(400);
+			Console.Write("dia");
+			Thread.Sleep(500);
+			Console.Write("monds ");
+			Thread.Sleep(400);
+			Console.Write("to");
+			Thread.Sleep(400);
+			Console.Write("night, ");
 		}
 		static void Main(string[] args)
         {
 			Console.Clear();
-			Console.WriteLine("Source code: http://bit.ly/revengecli");
+			Console.WriteLine("Source code: http://bit.ly/revengecli/ \n");
+			CountDown(5);
+			Console.Clear();
 			Console.WriteLine("-- START -- ");
 			Lyrics();
+			Thread.Sleep(500);
+			Console.WriteLine("");
 			Console.WriteLine("--  END  -- ");
-			Thread.Sleep(5000);
+			Thread.Sleep(500);
 			return;
         }
     }
